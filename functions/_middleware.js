@@ -30,7 +30,7 @@ export async function onRequest(context) {
     } catch (error) {
       console.error('Error loading target.txt:', error);
       // If target.txt cannot be read, use fallback data
-      targetContent = 'kids 77\nkerasakti 777\nkingkong39\nkitty223\nusutoto\nstars88\nbtcplay\nkodokwin\nkubujp\nkudabet88';
+      targetContent = '';
     }
     
     // Parse content from target.txt into array with correct URL format
